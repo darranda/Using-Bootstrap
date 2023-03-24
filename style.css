@@ -1,0 +1,115 @@
+body {
+    background-color:rgb(235, 235, 27);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.hero {
+    background-image: url("https://wallpapercave.com/wp/wp7562548.png");
+}
+
+.card-title {
+    color: rgb(21, 21, 19);
+    border: black;
+}
+.card-text {
+font-weight: bold;
+}
+.w3-header {
+    text-align: center;
+}
+.w3-container {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: center;
+    background-color: rgb(240, 153, 70);
+}
+.w3-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   color: rgb(148, 50, 14);
+   font-weight: bolder;
+   font-size: 15px;
+   padding-left: 20px;
+   padding-right: 20px;
+   margin: 40px;
+   border: black;
+
+   }
+
+.w3-panel{
+    display: flex;
+    border: black;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.card {
+    display: flex;
+    border-color: darkorange;
+    padding: 0px;
+}
+
+.card-body h2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #b9d62b;
+}
+h2 {
+    display: flex;
+    padding: 35px;
+    justify-content:end;
+
+}
+
+img {
+    width: 800px;
+    height: 200px;
+    padding-left: 500px;
+}
+h3 {
+
+    font-weight: bolder;
+}
+
+.btn-primary {
+    color: black;
+    font-weight: bolder;
+    background-color: aquamarine;
+
+}
+form {
+margin: 20px;
+background-color: #d7d1d5;
+
+}
+.contact {
+    border-color: darkorange;
+    width: 600px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d6d02b;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+input[type=submit] {
+    background-color: #23eea4;
+    color: black;
+    padding: 6px 20px;
+    border: black;
+    border: solid;
+    border-radius: 4px;
+    cursor: pointer;
+}
+footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
